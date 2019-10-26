@@ -1,0 +1,123 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+.main {
+    background-color: #fdde7e;
+    max-width: 1200px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+.column {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.column li {
+    background-color: white;
+    margin: 0 15px;
+}
+.column .cols {
+    font-size: 56px;
+    text-align: center;
+    padding: 1px 105px 30px 105px;
+}
+.column .text {
+    color: #4e4e4e;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 105px 38px 105px;
+}
+.column .icon-2 {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    background-image: url(../images/image.png);
+    background-repeat: no-repeat;
+}
+.column .icon-4 {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    background-image: url(../images/image2.png);
+    background-repeat: no-repeat;
+}
+.column .icon-3 {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    background-image: url(../images/image3.png);
+    background-repeat: no-repeat;
+}
+.column .icon-1 {
+    padding: 40px 0 0 0;
+    text-align: center;
+    font-size: 70px;
+    color: #02995b;
+}
+.column .icon-1-mid {
+    padding: 40px 0 40px 0;
+    text-align: center;
+    font-size: 70px;
+    color: #02995b;
+}
+.column .list-1 {
+    margin: 30px 0 0 0 ;
+    height: 480px;
+}
+.column .list-2 {
+    height: 540px;
+}
